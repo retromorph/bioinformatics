@@ -1,0 +1,10 @@
+name: bioinformatics
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - jupyter
+  - pip
+  - pip:
+    - numpy
+    - pandas
